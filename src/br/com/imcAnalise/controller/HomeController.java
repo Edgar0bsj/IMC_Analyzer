@@ -23,8 +23,6 @@ public class HomeController {
 			peso = imcApplication.validateEntries(peso);
 			altura = imcApplication.validateEntries(altura);
 			
-			System.out.println("DEGUB: " + peso + " ==== " + altura);
-			
 			double imc = imcApplication.calculateIMC(peso, altura);
 			
 			result.setText(String.format("IMC calculado: %.2f", imc));
