@@ -59,27 +59,7 @@ public class Home extends Application {
         btnAnalisar.setOnAction(e -> {
         	
         	controller.calcularImc(pesoFild.getText(), alturaFild.getText(), result);
-        	/*
-        	try {
-        	String pesoData = pesoFild.getText();
-        	String alturaData = alturaFild.getText();
-        	
-        	pesoData = pesoData.replace(",", ".");
-        	alturaData = alturaData.replace(",", ".");
-        	
-        	Double pesoParse = Double.parseDouble(pesoData);
-        	Double alturaParse = Double.parseDouble(alturaData);
-        	
-        	Double imc = pesoParse / (alturaParse * alturaParse);
-  	
-        	String textImc = "IMC calculado: %.2f";
-        	String imcFormat = String.format(textImc, imc);
-        	
-        	result.setText(imcFormat);
-        	} catch (NumberFormatException err) {
-        		result.setText("Erro ao calcular IMC  :/");
-			}
-        	*/
+
         });
         
         HBox linhaPeso = new HBox(8, peso, pesoFild);

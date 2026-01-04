@@ -70,7 +70,7 @@ javac --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.control
 # Executar a aplicação
 java --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.controls App
 ```
-Download do JavaFX é necessario para rodar o codigo acima:https://gluonhq.com/products/javafx/
+Download do JavaFX é necessário para rodar o código acima: https://gluonhq.com/products/javafx/
 
 ## 💻 Funcionalidades
 
