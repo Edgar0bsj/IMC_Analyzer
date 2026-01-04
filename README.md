@@ -2,6 +2,8 @@
 
 Aplicação desktop desenvolvida em Java com JavaFX para cálculo de IMC (Índice de Massa Corporal).
 
+![project](img/programa.PNG)
+
 ## 📋 Descrição
 
 O IMC Analyzer é uma aplicação simples e intuitiva que permite calcular o Índice de Massa Corporal (IMC) a partir do peso e altura fornecidos pelo usuário. A aplicação possui interface gráfica moderna desenvolvida com JavaFX.
@@ -70,6 +72,7 @@ javac --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.control
 # Executar a aplicação
 java --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.controls App
 ```
+
 Download do JavaFX é necessário para rodar o código acima: https://gluonhq.com/products/javafx/
 
 ## 💻 Funcionalidades
@@ -93,4 +96,3 @@ Desenvolvido como projeto de estudo em Java com JavaFX.
 ## 📄 Licença
 
 Este projeto é de código aberto e está disponível para fins educacionais.
-
